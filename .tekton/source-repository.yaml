@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: java-test-repo-repository
+spec:
+  url: https://github.com/prietyc123-qe-org/java-test-repo
